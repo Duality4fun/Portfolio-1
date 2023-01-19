@@ -1,0 +1,68 @@
+.header {
+    background-color: bisque;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-link {
+    margin: 0 10px;
+}
+.link {
+    color: chocolate;
+    transition: color .2s;
+}
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex; 
+    flex-grow: 1;
+    padding-top: 50px;
+}
+.title {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img-wrapper {
+    background-color: gainsboro;
+    padding: 20px;
+    text-align: center;
+}
+.img {
+    border: 1px solid black;
+}
+.subtitle {
+    border-left: 5px solid chocolate;
+    padding-left: 10px;
+    color: brown;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
+}
+.aside {
+    width: 300px;
+    flex: 0;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+.contact-icon {
+    margin-right: 20px;
+}
+.main-section {
+    flex-grow: 1;
+    padding-left: 100px;
+}
